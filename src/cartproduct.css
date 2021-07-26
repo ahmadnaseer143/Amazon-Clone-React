@@ -1,0 +1,17 @@
+.cart-product{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.cart-product-image{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+@media only screen and (max-width: 800px) {
+    .removebtn{
+        font-size: small;
+        width: 70px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+}

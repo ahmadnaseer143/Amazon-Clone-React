@@ -1,0 +1,91 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 92vh;
+}
+.amazon-image>img{
+    width: 130px;
+    height: 50px;
+    margin: 20px;
+}
+.signin{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    width: 350px;
+    height: fit-content;
+    padding: 10px 30px;
+}
+.signin input{
+    width: 102%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+.signin input:focus {
+    outline: none;
+    border:1px solid orange;
+    box-shadow: 0 0 10px #f0c047;
+}
+.form button{
+    width: 100%;
+    background-color: #f1c75c;
+    border: 1px solid rgb(94, 93, 93);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+.form button:hover{
+    background-color: #f0c047;
+}
+.form p{
+    font-size: small;
+}
+.help{
+    display: flex;
+    flex-direction: column;
+}
+.help button{
+    border: none;
+    font-size: small;
+    width: 100px;
+    background-color: transparent;
+    color: #3678da;
+}
+.link-signin{
+    text-decoration: none;
+}
+.help-link{
+    font-size: small;
+    margin: 4px 18px;
+}
+.link-signin:hover,.help button:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.new-to-amazon{
+    margin-top: 30px;
+    border-top: 1px solid lightgray;
+}
+
+.new-to-amazon p{
+    position: relative;
+    top: -12px;
+    left: 30%;
+    background-color: #fff;
+    width: fit-content;
+    padding: 0 5px;
+    font-size: small;
+}
+.new-to-amazon button{
+    padding: 5px;
+    width: 350px;
+    border: 1px solid rgb(172, 170, 170);
+    font-size: small;
+    border-radius: 4px;
+}
+.new-to-amazon button:hover{
+    background-color: #dbdee3;
+}

@@ -1,0 +1,20 @@
+.row{
+    background-color: rgba(234,237,237,255);
+}
+.sr-only{
+    display: none;
+}
+.carousel-item{
+    transition: all 100ms ;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: black;
+}
+.carousel-item {
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+
+}

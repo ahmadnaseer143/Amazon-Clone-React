@@ -1,0 +1,23 @@
+
+.card{
+    margin: -70px 20px 90px 20px;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+@media screen and (max-width:769px) {
+ .card-img-top {
+    height: 18vw;
+    }   
+}
+.rating{
+    color: orange;
+    display: flex;
+}

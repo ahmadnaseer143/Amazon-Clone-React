@@ -1,0 +1,26 @@
+.cart-container{
+    position: absolute;
+    background-color: rgba(234,237,237,255);
+    height: 300%;
+    width: 100%;
+
+}
+.cart{
+    display: flex;
+    max-height: max-content;
+    padding: 28px;
+}
+.left-part{
+    width: 65%;
+    margin: 20px;
+    background-color: #fff;
+}
+.heading{
+    margin-right: 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+}
+.price{
+    float: right;
+}
